@@ -2,9 +2,9 @@ name: Deploy VPC (Step 1)
 
 on:
   push:
+    branches: [main]
     paths:
-      - "vpc/**"
-  workflow_dispatch:
+      - 'VPC/**'
 
 jobs:
   deploy-vpc:
