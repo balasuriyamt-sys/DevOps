@@ -11,9 +11,7 @@ jobs:
     name: Deploy VPC using Terraform
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: infra/vpc
+
 
     steps:
       - name: Checkout code
