@@ -2,8 +2,10 @@ name: Terraform S3
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - 'VPC/**'
+
 
 jobs:
   deploy:
